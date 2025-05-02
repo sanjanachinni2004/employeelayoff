@@ -96,8 +96,7 @@ def main():
         ctc_inr = st.number_input("Current Salary (CTC in INR)", min_value=0)
         years_at_company = st.number_input("Years at Company", min_value=0, max_value=50)
         years_since_last_promotion = st.number_input("Years Since Last Promotion", min_value=0, max_value=50)
-        numbepip install streamlit pandas numpy scikit-learn matplotlib seaborn openpyxl
-r_of_projects = st.number_input("Number of Projects Completed in Company", min_value=0)
+        number_of_projects = st.number_input("Number of Projects Completed in Company", min_value=0)
         
         # Check if all fields have values before proceeding
         if st.button("Predict Layoff Probability"):
